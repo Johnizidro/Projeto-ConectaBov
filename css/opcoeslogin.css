@@ -1,0 +1,183 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    .background-image{
+        background-image: url(vaca-no-pasto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center;
+    }
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: "Montserrat", sans-serif;
+    }
+    main{
+        height: calc(100vh - 150px - 150px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main{
+        background-color: #FFF4D8;
+        width: 45%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: solid 2px #5E7153;
+        flex-direction: column;
+        box-shadow: rgb(54, 54, 54) 5px 4px 10px;
+        
+    }
+.cabecalho,.footer{
+    height: 150px;
+    width: 100%;
+    background-color: #5E7153;
+}
+.manutencao,.colaborador,.gestao {
+    height: 150px;
+    width: 140px;
+    background-color: #5E7153;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-opcoes{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    width: 100%;
+}
+.titulo{
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+}
+.login{
+    font-weight: 550;
+    margin-left: 10%;
+    color: #5E7153;
+    font-size: 25px;
+    padding: 2px;
+    border: solid 2px #5E7153;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    padding-right: 15px;
+}
+.login-text{
+    color: #5E7153;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+.cabecalho-div{
+    width: 67%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho-titulo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.cabecalho-icone{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manutencao-titulo{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+}
+.manutencao,.colaborador,.gestao {
+    box-shadow: gray 5px 4px 10px;
+}
+.facebook{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+}
+.instagram{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+}
+.whatsaap{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+}
+.linkedin{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+}
+.logo-rede{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    
+}
+.divis{
+    display: flex;
+    justify-content: center;
+}
+.divisao{
+    width: 95%;
+}
+.footer-sub{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-children{
+    display: flex;  
+    flex-direction: column;
+    margin-left: 2%;
+}
+.img-gado{
+    margin-right: 2%;
+}
+.entre-em-contato{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}

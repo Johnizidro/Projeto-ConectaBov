@@ -1,0 +1,415 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: "Montserrat", sans-serif;
+    }
+    body{
+        background-color: #ebddba;
+    }
+    /* main{
+         height: calc(100vh - 150px - 120px - 50px); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
+    /* .main{
+        background-color: #FFF4D8;
+        width: 45%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: solid 2px #5E7153;
+        flex-direction: column;
+        box-shadow: rgb(54, 54, 54) 5px 4px 10px;
+        
+    } */
+.cabecalho{
+    height: 120px;
+    width: 100%;
+    background-color: #ebddba;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: #5E7153;
+}
+.manutencao,.colaborador,.gestao {
+    height: 150px;
+    width: 140px;
+    background-color: #5E7153;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.user-solid{
+    border: solid 2px #5E7153;
+    border-radius: 3px;
+    padding-left: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+.box-opcoes{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    width: 100%;
+}
+.titulo{
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+}
+.login{
+    font-weight: 550;
+    margin-left: 10%;
+    color: #5E7153;
+    font-size: 25px;
+    padding: 2px;
+    border: solid 2px #5E7153;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    padding-right: 15px;
+}
+.login-text{
+    color: #5E7153;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+.cabecalho-div{
+     width: 94%; 
+    /* height: 100%; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+/* .cabecalho-titulo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+} */
+.cabecalho-icone{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manutencao-titulo{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+}
+.manutencao,.colaborador,.gestao {
+    box-shadow: gray 5px 4px 10px;
+}
+.facebook{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+}
+.instagram{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+}
+.whatsaap{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+}
+.linkedin{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+}
+.logo-rede{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    
+}
+.divis{
+    display: flex;
+    justify-content: center;
+}
+.divisao{
+    width: 95%;
+}
+.footer-sub{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-children{
+    display: flex;  
+    flex-direction: column;
+    margin-left: 2%;
+}
+.img-gado{
+    margin-right: 2%;
+}
+.entre-em-contato{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.ancora-login{
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    color: white; 
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+.pesquisa{
+    width: 100%;
+    height: 32px;
+    border-radius: 8px;
+    border: solid 1px #5E7153;
+    font-size: 15px;
+    color: #5E7153;
+    font-weight: 600;
+}
+.lupa{
+    position: absolute;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #5E7153;
+}
+.pesquisa-dad{
+    display: flex;
+    justify-content: flex-end;
+}
+.sub-cabecalho{
+    width: 100%;
+    height: 50px;
+    background-color: #5E7153;
+    display: flex;
+    justify-content: center;
+}
+.ancora{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.dassda{
+    width: 80%;
+}
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.conteudo-text{
+    width: 40vw;
+    background-color: #ebddba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+.text-paragrafo{
+    width: 500px;
+    height: 300px;
+    font-size: 20px;
+    color: #5E7153;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo-img{
+    width: 60vw;
+    padding: 0%;
+    margin: 0%;
+}
+.titulo{
+    border: solid 3px #5E7153;
+    padding-left: 30px;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-radius: 4px;
+    margin-bottom: 5%;
+}
+.conectabov{
+    margin-left: 18%;
+}
+.solucoes{
+    width: 100%;
+    height: 250px;
+    background-color: #5E7153;
+    display: flex;
+    justify-content:space-around;
+}
+.opcoes-solucoes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 70vw;
+}
+.background-image{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+.titulo-solucoes{
+    color: white;
+    padding: 2%;
+    width: 30vw;
+}
+.tecnologia{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.seguranca,.saude,.monitoramento{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 50%;
+    color: white;
+    border: solid 2px white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 4px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+}
+.margen{
+    margin-top: 10%;
+}
+
+.carrocel{
+    background-color: #ebddba;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    
+}
+.opcoes-pecuaria{
+    display: flex;
+    width: 70vw;
+    height: 30vh;
+    gap: 70px;
+    will-change: transform;
+    
+    
+}
+
+
+.hidden{
+    overflow: hidden;
+    width: 70vw;  
+    height: 30vh; 
+    position: relative; 
+    
+}
+.titulo-pecuaria{
+    margin-left: 5%;
+    margin-right: 5vw;
+    width: 20vw;
+    height: 30vh;
+    color: #5E7153;
+}
+
+.h1{
+    border: solid 2px #5E7153;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    width: 80%;
+    font-size: 40px;
+}
+.pecuaria{
+    background-color: #5E7153;
+    width: 200px;
+    height: 100%;
+    border-radius: 20px;
+    flex-shrink: 0;
+    
+}
+.pecuaria img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    object-fit: contain;  
+    display: block;
+}
+.text{
+    width: 60%;
+    height: 80%;
+}
+
+.h4{
+    margin-left: 5%;
+    margin-top: 4%;
+    color: white;
+    font-weight: 400;
+    width: 70%;
+}
+.finalizacaoHadden{
+    width: 15vw;
+    position: relative;
+}
