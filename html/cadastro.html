@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/cadastro.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/cadastro.js"></script>
     <title>Cadastro</title>
 </head>
 <body>
@@ -17,32 +19,32 @@
             <div class="titulo">
                 <img src="/IMG/2-removebg-preview 1.png" width="200px">
             </div>
-            <form class="formCadastro" onsubmit="return validarSenha()" method="post" action="connection.php">
+            <form class="formCadastro"  method="post" action="connection.php">
                 <div class="area">
-                    <input type="text" name="" id="nome" required width="45px" class="campoCadastro input" placeholder=" Nome Completo*">
+                    <input type="text" name="" id="nome"  width="45px" class="campoCadastro input" placeholder=" Nome Completo*">
                     <div class="labelline">Nome Completo*</div>
                 </div>
                 
 
                 <div class="area">
-                    <input type="email" name="" id="email" required width="45px" class="campoCadastro input" placeholder=" Digite seu E-mail*">
+                    <input type="email" name="" id="email"  width="45px" class="campoCadastro input" placeholder=" Digite seu E-mail*">
                     <div class="labelline">E-mail*</div>
                 </div>
                 
 
                 <div class="area">
-                    <input type="tel" name="" id="telefone" required width="45px" class="campoCadastro input" minlength="8" maxlength="11" placeholder="Digite seu Telefone*">
+                    <input type="tel" name="" id="telefone"  width="45px" class="campoCadastro input" minlength="8" maxlength="11" placeholder="Digite seu Telefone*">
                     <div class="labelline">Telefone*</div>
                 </div>
                 
                 
                 <div class="area">
-                    <input type="password" name="" id="senha" required width="45px" class="campoCadastro input" minlength="8" placeholder="Digite a senha">
+                    <input type="password" name="" id="senha"  width="45px" class="campoCadastro input" minlength="8" placeholder="Digite a senha">
                     <div class="labelline">Senha*</div>
                 </div>
                
                 <div class="area">
-                    <input type="password" name="" id="confirmeSenha" required width="45px" class="campoCadastro input" minlength="8" placeholder="Digite a senha novamente">
+                    <input type="password" name="" id="confirmeSenha" width="45px" class="campoCadastro input" minlength="8" placeholder="Digite a senha novamente">
                     <div class="labelline">Confirme Senha*</div>
                 </div>
 
@@ -53,5 +55,5 @@
     </main>
 </div>
 </body>
-<script src="/js/script.js"></script>
+
 </html>
