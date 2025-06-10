@@ -52,15 +52,3 @@ function fecharMenu() {
     document.getElementById("menuLateral").style.left = "-250px";
 }
 
-function validarSenha() {
-    var senha = document.getElementById('senha').value;
-    var confirmeSenha = document.getElementById('confirmeSenha').value;
-
-    if (senha !== confirmeSenha) {
-        alert("As senhas não coincidem!");
-        return false;
-    }
-
-    return true;
-}
-
