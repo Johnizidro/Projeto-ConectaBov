@@ -1,7 +1,7 @@
 <h1 align="center">Projeto ConectaBov</h1>
 
 <p align="center">
-  Projeto Integrador desenvolvido com a proposta para o Senac Campinas
+  Projeto Integrador desenvolvido como proposta para o Senac Campinas
 </p>
 
 <p align="center">
@@ -56,4 +56,4 @@ Projeto desenvolvido por:
 
 ---
 
-<p align="center">Feito com ♥ por todos os integrantes do ConectaBov</p>
+<p align="center">Feito com ♥ por todos os integrantes da ConectaBov</p>
