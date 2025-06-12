@@ -38,6 +38,7 @@ O layout foi desenvolvido no Figma e está disponível [aqui](https://www.figma.
 
 
 <h2 id="funcionalidades">🛠️ Funcionalidades</h2>
+
 - 📊 Visualização de dados
 - 📋 Cadastro de animais
 - 🧑‍⚕️ Consulta de veterinários
