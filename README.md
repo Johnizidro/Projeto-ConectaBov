@@ -17,10 +17,6 @@
 
 <br>
 
-<p align="center">
-  <img src=".github/cover.jpg" width="100%" alt="Imagem de capa do projeto" />
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
