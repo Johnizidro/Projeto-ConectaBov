@@ -21,10 +21,12 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- JavaScript
-- Git e GitHub
-- Figma
+- 🌐 HTML 
+- 🎨 CSS 
+- ⚙️ JavaScript
+- 🔧 Git 
+- 🐱 GitHub
+- 🖌️ Figma
 
 ## 💻 Projeto
 
@@ -34,6 +36,12 @@ A ConectaBov surgiu como uma proposta de avanço no setor pecuário, sendo um si
 
 O layout foi desenvolvido no Figma e está disponível [aqui](https://www.figma.com/design/Crtni8Cp3H1taxwYU4Ivn2/Projeto-integrador-UC---16?node-id=33-2&t=832eXJNOAVPOGbTy-1).
 
+
+## 🛠️ Funcionalidades
+- 📊 Visualização de dados
+- 📋 Cadastro de animais
+- 🧑‍⚕️ Consulta de veterinários
+- 🚨 Sistema de chamados
 ---
 
 ## 👥 Equipe
