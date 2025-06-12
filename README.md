@@ -36,7 +36,7 @@ A ConectaBov surgiu como uma proposta de avanço no setor pecuário, sendo um si
 
 ## 🎨 Layout
 
-O layout foi desenvolvido no Figma e está disponível [(https://www.figma.com/design/Crtni8Cp3H1taxwYU4Ivn2/Projeto-integrador-UC---16?node-id=33-2&t=832eXJNOAVPOGbTy-1)].
+O layout foi desenvolvido no Figma e está disponível[aqui](https://www.figma.com/design/Crtni8Cp3H1taxwYU4Ivn2/Projeto-integrador-UC---16?node-id=33-2&t=832eXJNOAVPOGbTy-1)
 
 ---
 
@@ -44,10 +44,10 @@ O layout foi desenvolvido no Figma e está disponível [(https://www.figma.com/d
 
 Projeto desenvolvido por:
 
-- [João Victor]((https://github.com/Johnizidro))
-- [Davi Roberto]((https://github.com/Davi-git1))
-- [Yuri Gabriel]((https://github.com/yuri522))
-- [Daniel Santos]((https://github.com/dasantos2))
+- [João Victor]([(https://github.com/Johnizidro)])
+- [Davi Roberto]([(https://github.com/Davi-git1)])
+- [Yuri Gabriel]([(https://github.com/yuri522)])
+- [Daniel Santos]([(https://github.com/dasantos2)])
 
 ---
 
