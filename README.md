@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img alt="License" src="capa-conectabov.png">
+  <img alt="License" src="Capa_readme.png">
 </p>
 
 <br>
