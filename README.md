@@ -53,6 +53,7 @@ Projeto desenvolvido por:
 - [Davi Roberto](https://github.com/Davi-git1)
 - [Yuri Gabriel](https://github.com/yuri522)
 - [Daniel Santos](https://github.com/dasantos2)
+- [Anna Ataliba](https://github.com/AnnaAtaliba)
 
 ---
 
