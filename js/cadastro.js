@@ -39,7 +39,7 @@ $(document).ready(function () {
       const email = $('#email').val().trim();
       const telefone = $('#telefone').val().trim();
       const senha = $('#senha').val().trim();
-      const confirmeSenha = $('#confirmeSenha').val().trim();
+      const confirmeSenha = $('#confsenha').val().trim();
 
       if (!nome || !email || !telefone || !senha || !confirmeSenha) {
           mostrarMensagem('Por favor, preencha todos os campos obrigatórios!!', 'erro');
