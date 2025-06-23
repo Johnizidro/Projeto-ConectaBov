@@ -8,6 +8,9 @@
     body{
         background-color: #F8F5F0;
     }
+    main{
+        background-color: transparent;
+    }
     /* main{
          height: calc(100vh - 150px - 120px - 50px); 
         display: flex;
@@ -31,7 +34,7 @@
 .cabecalho{
     height: 120px;
     width: 100%;
-    background-color: #F8F5F0;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -96,7 +99,20 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    background-color: transparent;
 }
+
+.backgroudImage{
+    background-image: url("../IMG/AgroNeo - propaganda.png");
+    width: auto;
+    min-height: 100vh;
+    max-height: 320px;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* .cabecalho-titulo{
     color: white;
     display: flex;
@@ -247,12 +263,14 @@ a{
 .conteudo{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 60vw;
     height: auto;
+    padding: 50px;
 }
 .conteudo-text{
     width: 40vw;
-    background-color: #ebddba;
+    height: 40vh;
+    background-color: transparent; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -412,4 +430,142 @@ a{
 .finalizacaoHadden{
     width: 15vw;
     position: relative;
+}
+
+@media (max-width:1128px) and (min-width:799px) {
+    .tecnologia{
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 30px;
+        border: 0px;
+    }
+    .seguranca,.saude,.monitoramento{
+        color: white;
+        border-radius: 4px;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+        width: 30px;
+        border: 0;
+        margin-right: 5%;
+    }
+    .opcoes-solucoes img{
+        width: 50px;
+        margin: 0px;
+        padding: 0;
+    }
+}
+
+@media (max-width:800px) and (min-width:501px) {
+    .tecnologia{
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 70px;
+        border: 0px;
+    }
+    .seguranca,.saude,.monitoramento{
+        color: white;
+        border-radius: 4px;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+        width: 70px;
+        border: 0;
+        margin-right: 5%;
+    }
+    .seguranca,.saude,.monitoramento,.tecnologia{
+        font-size: 15px;
+    }
+    .opcoes-solucoes img{
+        width: 50px;
+        margin: 0px;
+        padding: 0;
+    }
+    .solucoes{
+        width: 100%;
+        height: 250px;
+        background-color: #465640;
+        display: flex;
+        justify-content: center;
+    }
+    .titulo-solucoes {
+        /* color: white;
+        padding: 0;
+        width: 30vw; */
+        display: none;
+    }
+}
+
+@media (max-width:500px) and (min-width:0px) {
+    .tecnologia{
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 70px;
+        border: 0px;
+    }
+    .seguranca,.saude,.monitoramento{
+        color: white;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+        width: 100%;
+        border: 0;
+    }
+    .seguranca .margen,.saude .margen,.monitoramento .margen,.tecnologia .margen {
+        margin: 0 0 25px 0;
+    }
+    .opcoes-solucoes{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .solucoes{
+        width: 100%;
+        height: 100%;
+        background-color: #465640;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:90px 0 90px 0;
+    }
+    .cabecalho-div p {
+        display: none;
+    }
+    .carrocel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .titulo-pecuaria{
+        display: none;
+    }
+    .background-image{
+        display: none;
+    }
+    #projeto,.titulo-solucoes{
+        display: none;
+    }
+    .hidden{
+        width: 100%;
+        
+    }
+    .pecuaria{
+        background-color: #465640;
+        width: 200px;
+        height: 100%;
+        border-radius: 20px;
+        flex-shrink: 0;   
+    }
 }
