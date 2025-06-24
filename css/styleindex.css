@@ -43,6 +43,8 @@
     height: 150px;
     width: 100%;
     background-color: #465640;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .manutencao,.colaborador,.gestao {
     height: 150px;
@@ -405,13 +407,12 @@ a{
     background-color: #465640;
     width: 200px;
     height: 100%;
-    border-radius: 20px;
+ 
     flex-shrink: 0;
     
 }
 .pecuaria img{
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+
     object-fit: contain;  
     display: block;
 }
