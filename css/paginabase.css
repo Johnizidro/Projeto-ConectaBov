@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: #F8F5F0;
+}
+
+.backgroudImage{
+    background-image: url("/IMG/AgroNeo\ -\ propaganda\ 4.png");
+    width: auto;
+    min-height: 100vh;
+    max-height: 320px;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.cabecalho{
+    height: 120px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.cabecalho-div{
+ width: 94%; 
+/* height: 100%; */
+display: flex;
+justify-content:space-between;
+align-items: center;
+background-color: transparent;
+}
+
+/* .cabecalho-titulo{
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+} */
+
+.cabecalho-icone{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.pesquisa-dad{
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.pesquisa{
+    width: 100%;
+    height: 32px;
+    border-radius: 8px;
+    border: solid 1px #465640;
+    font-size: 15px;
+    color: #465640;
+    font-weight: 600;
+    }
+
+.lupa{
+    position: absolute;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #465640;
+    }
+ 
+    
+a{
+    color: white; 
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    }
+
+.ancora-login{
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: space-between;
+    }   
+    
+.user-solid{
+    border: solid 2px #465640;
+    border-radius: 3px;
+    padding-left: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    } 
+
+main {
+    background-color: transparent;
+
+
+}
+/* main{
+     height: calc(100vh - 150px - 120px - 50px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+/* .main{
+    background-color: #FFF4D8;
+    width: 45%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 2px #5E7153;
+    flex-direction: column;
+    box-shadow: rgb(54, 54, 54) 5px 4px 10px;
+    
+} */
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: #465640;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+.footer-sub{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .footer-children{
+    display: flex;  
+    flex-direction: column;
+    margin-left: 2%;
+    }
+
+.entre-em-contato{
+     padding-top: 5%;
+    padding-bottom: 5%;
+    }
+
+.logo-rede{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;     
+    }  
+
+    .facebook{
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+        }
+        .instagram{
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+        }
+        .whatsaap{
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+        }
+        .linkedin{
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        box-shadow: rgb(82, 82, 82) 2px 4px 6px;
+        }
+
+
+.img-gado{
+    margin-right: 2%;
+    }
+        
+.divis{
+    display: flex;
+    justify-content: center;
+    }
+
+.divisao{
+    width: 95%;
+    }
