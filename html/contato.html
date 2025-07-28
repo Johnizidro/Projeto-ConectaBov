@@ -24,12 +24,13 @@
                     <div class="conectaBlog"><a href="">ConectaBlog</a></div>
 
                 </div>
-                <a href="login.html" class="icon-login"><img class="user-solid" src="/IMG/user-solid.svg" alt="" srcset="" width="35px">
+                <a href="login.html" class="icon-login"><img class="user-solid" src="/IMG/user-solid.svg" alt=""
+                        srcset="" width="35px">
                     <p style="color: #5E7153;font-size: 12.5px;font-weight: bold;">Login</p>
                 </a>
             </div>
         </div>
-        
+
         <!-- </div> -->
         <!-- <div id="inicio"></div> -->
         <main>
@@ -61,7 +62,10 @@
     </div>
 
     <div class="solucoes">
-        <div class="tituloSolucoes"><h1>Entre em</h1> <h1 style="margin-left: 40%;">Contato</h1></div>
+        <div class="tituloSolucoes">
+            <h1>Entre em</h1>
+            <h1 style="margin-left: 40%;">Contato</h1>
+        </div>
     </div>
     <div class="entre_em_contato">
         <h2 style="color: #5E7153;margin-left: 10%;margin-top: 3%;">Como podemos</h2>
@@ -72,17 +76,16 @@
             </div>
 
             <div class="asdfljhe">
-                <a id="cliqueContato" onclick="cliqueContato()">Contato</a> 
+                <a id="cliqueContato" onclick="cliqueContato()">Contato</a>
                 <a id="cliqueDuvida" onclick="cliqueDuvida()">Duvida</a>
                 <a id="cliqueFeedBack" onclick="cliqueFeedBack()">FeedBack</a>
             </div>
         </div>
-        <div class="entre_em_contato_children"> 
-                  
+        <div class="entre_em_contato_children">            
             <img src="../IMG/pexels-timmossholder-974314 1.png" alt="" class="imgContato">
             
             <div class="contato">
-                <form action="" class="formContato">
+                <form action="" id="formContato" class="formContato">
                     <input type="text" name="" id="inputContato" placeholder="Nome">
                     <input type="text" name="" id="inputContato" placeholder="E-mail">
                     <input type="text" name="" id="inputContato" placeholder="Telefone">
@@ -184,6 +187,18 @@
 
         borda.style.width = '30%';
         borda.style.marginLeft = '0%';
+
+        form = document.getElementById('formContato').innerHTML = 
+        `<form action="" id="formContato" class="formContato">
+            <input type="text" name="" id="inputContato" placeholder="Nome">
+            <input type="text" name="" id="inputContato" placeholder="E-mail">
+            <input type="text" name="" id="inputContato" placeholder="Telefone">
+            <input type="text" name="" id="inputContato" placeholder="Estado">
+            <input type="text" name="" id="inputContato" placeholder="Cargo">
+            <label for="" class="labelContato">Mensagem</label>
+            <textarea name="" id="" class="textareaContato"></textarea>
+            <input type="submit" value="Enviar" class="inputContatoSubmit">
+        </form>`
     }
 
     function cliqueFeedBack() {
@@ -198,6 +213,16 @@
 
         borda.style.width = '35%';
         borda.style.marginLeft = '66%';
+
+        form = document.getElementById('formContato').innerHTML = `<form action="" id="formContato" class="formContato">
+                                                                        <input type="text" name="" id="inputContato" placeholder="Nome">
+                                                                        <input type="text" name="" id="inputContato" placeholder="E-mail">
+                                                                        <input type="text" name="" id="inputContato" placeholder="Telefone">
+                                                                        <input type="text" name="" id="inputContato" placeholder="Estado">
+                                                                        <input type="text" name="" id="inputContato" placeholder="Cargo">
+                                                                        <input type="submit" value="Enviar" class="inputContatoSubmit">
+                                                                    </form> `
+        
     }
 </script>
 
