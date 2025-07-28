@@ -61,10 +61,24 @@
     </div>
 
     <div class="solucoes">
-        
+        <div class="tituloSolucoes"><h1>Entre em</h1> <h1 style="margin-left: 40%;">Contato</h1></div>
     </div>
     <div class="entre_em_contato">
-        <div class="entre_em_contato_children">       
+        <h2 style="color: #5E7153;margin-left: 10%;margin-top: 3%;">Como podemos</h2>
+        <h2 style="color: #5E7153;margin-left: 10%;margin-bottom: 3%;">te ajudar?</h2>
+        <div class="asdfljh">
+            <div class="asdfljhanima">
+                <div id="asdfljhanimaa" class="asdfljhanimaa"></div>
+            </div>
+
+            <div class="asdfljhe">
+                <a id="cliqueContato" onclick="cliqueContato()">Contato</a> 
+                <a id="cliqueDuvida" onclick="cliqueDuvida()">Duvida</a>
+                <a id="cliqueFeedBack" onclick="cliqueFeedBack()">FeedBack</a>
+            </div>
+        </div>
+        <div class="entre_em_contato_children"> 
+                  
             <img src="../IMG/pexels-timmossholder-974314 1.png" alt="" class="imgContato">
             
             <div class="contato">
@@ -142,6 +156,49 @@
     }
 
     animate();
+
+    function cliqueDuvida() {
+        clique = document.getElementById('cliqueDuvida');
+        feedBack = document.getElementById('cliqueFeedBack');
+        contato = document.getElementById('cliqueContato');
+
+        borda = document.getElementById('asdfljhanimaa');
+
+        clique.style.color = '#5E7153';
+        feedBack.style.color = '#adb9a6';
+        contato.style.color = '#adb9a6';
+
+        borda.style.width = '30%';
+        borda.style.marginLeft = '33%';
+    }
+
+    function cliqueContato() {
+        clique = document.getElementById('cliqueContato');
+        duvida = document.getElementById('cliqueDuvida');
+        feedBack = document.getElementById('cliqueFeedBack');
+        borda = document.getElementById('asdfljhanimaa');
+
+        clique.style.color = '#5E7153';
+        feedBack.style.color = '#adb9a6';
+        duvida.style.color = '#adb9a6';
+
+        borda.style.width = '30%';
+        borda.style.marginLeft = '0%';
+    }
+
+    function cliqueFeedBack() {
+        contato = document.getElementById('cliqueContato');
+        duvida = document.getElementById('cliqueDuvida');
+        clique = document.getElementById('cliqueFeedBack');
+        borda = document.getElementById('asdfljhanimaa');
+
+        clique.style.color = '#5E7153';
+        contato.style.color = '#adb9a6';
+        duvida.style.color = '#adb9a6';
+
+        borda.style.width = '35%';
+        borda.style.marginLeft = '66%';
+    }
 </script>
 
 </html>

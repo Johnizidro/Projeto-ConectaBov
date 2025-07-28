@@ -37,6 +37,7 @@ main{
 
 }
 
+
 .pesquisa-dad{
     width: 40%;
     display: flex;
@@ -314,12 +315,24 @@ margin-bottom: 5%;
 .conectabov{
 margin-left: 18%;
 }
+
 .solucoes{
 width: 100%;
 height: 200px;
 background-color: #465640;
 display: flex;
-justify-content:space-around;
+align-items: center;
+/* padding-left: 5%; */
+}
+
+.tituloSolucoes{
+    margin-left: 5%;
+    padding-left: 2%;
+    color: rgb(247, 247, 247);
+    border: solid 2px ;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
 }
 /* .opcoes-solucoes{
 display: flex;
@@ -443,6 +456,54 @@ width: 15vw;
 position: relative;
 }
 
+.asdfljh{
+    margin-left: 13%;
+}
+.asdfljhe{ 
+    width: 230px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+#asdfljhanimaa {
+    transition: width 0.5s ease, margin-left 0.5s ease;
+}
+
+#cliqueContato,
+#cliqueDuvida,
+#cliqueFeedBack {
+    transition: color 0.5s ease;
+}
+
+#cliqueContato{
+    color: #465640;
+}
+
+.asdfljhe a{
+    cursor: pointer;
+    user-select: none;
+}
+
+.asdfljhanima{
+    background-color: #adb9a6;
+    width: 235px;
+    height: 2px;
+}
+
+.asdfljhanimaa{
+    width: 26%;
+    height: 2px;
+    background-color: #5E7153;
+    z-index: 1111;
+}
+
+.asdfljh a{
+    font-size: small;
+    color: #adb9a6;
+    margin-left: 2%;
+}
+
 .imgContato img{
     width: 700px;
 }
@@ -450,7 +511,7 @@ position: relative;
     max-width: 40%;
     width: 40%;
     min-width: auto;
-    border: 1px solid #465640;
+    border: 1px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -609,6 +670,11 @@ position: relative;
     width: 100%;
     height: 25vh;
 }
+.contatoTitulo{
+    margin: 5%;
+    color: #465640;
+}
+
 .solucoes{
     width: 100%;
     height: 100%;
