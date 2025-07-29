@@ -567,6 +567,32 @@ position: relative;
 .imgContato{
     max-width: 40%;
 }
+#estrela1,#estrela2,#estrela3,#estrela4,#estrela5{
+    cursor: pointer;
+}
+.estrela{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    user-select: none;
+}
+#mensagemEstrela{
+    color: #5E7153;
+    font-size: small;
+    position: relative;
+    width: 30%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.inputContatoSubmit{
+    width: 20%;
+    color: #465640;
+    border: 2px solid #5E7153;
+    font-weight: bold;
+    border-radius: 3px;
+}
 
 @media (max-width:1128px) and (min-width:799px) {
 .tecnologia{
