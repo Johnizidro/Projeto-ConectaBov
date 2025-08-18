@@ -24,6 +24,64 @@ body {
     padding: 300px 0 200px 0;
 }
 
+.climabox{
+    
+    height: 100px;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monitoramentoClima{
+    width: 600px;
+    height: 150px;
+    background-color: #E8D8B4;
+    display: flex;
+    align-items: center;
+}
+.regiaoClima{
+    width: 295px;
+    height: 90%;
+    background-color: #E1DFE0;
+    margin-left: 10px;
+}
+
+.regiaoClima h3{
+    color: #465640;
+}
+.animacao{
+    width: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.infoClima{
+    width: 295px;
+    height: 90%;
+    background-color: #E1DFE0;
+    margin: 0 10px 0 0;
+}
+
+.animacao hr {
+    transform: rotate(90deg);
+    border: #465640 0.5px solid;
+    width: 50px;
+}
+
+.circulo{
+    width: 15px;
+    height: 15px;
+    background-color: #465640;
+    border-radius: 50%;
+    margin: 40px 0 40px 0;
+}
+
 .b3 img{
     position: absolute;
 }
