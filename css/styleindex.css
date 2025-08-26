@@ -130,14 +130,17 @@ border-right-color: transparent;
     background-color: transparent;
 }
 
+
+
 .backgroudImage {
     background-image: url("/IMG/AgroNeo\ -\ propaganda\ 4.png");
     width: auto;
     min-height: 100vh;
     max-height: 320px;
     height: auto;
-    background-position: center;
+    background-position: left center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-size: cover;
 }
 
@@ -149,7 +152,7 @@ align-items: center;
 font-size: 25px;
 } */
 .cabecalho-icone {
-    width: 200px;
+    margin-left: 5%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -330,8 +333,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2%;
-    margin: 0%;
+    padding-top: 5%;
+    margin: 0% 0 0 5%;
 
 }
 
@@ -501,6 +504,11 @@ a {
     width: 70%;
 }
 
+.h1{
+    font-size: 25px;
+}
+
+
 .finalizacaoHadden {
     width: 15vw;
     position: relative;
@@ -517,6 +525,23 @@ a {
         border: 0px;
     }
 
+    .pesquisa-dad{
+        justify-content: space-between;
+        width: 60%;
+    }
+
+    .text-paragrafo{
+        margin-left: 25%;
+    }
+
+    .text-paragrafo p {
+        display: -webkit-box;           /* Necessário para usar o line-clamp */
+        -webkit-box-orient: vertical;  /* Orientação vertical das linhas */
+        -webkit-line-clamp: 7;          /* Limita a 5 linhas */
+        overflow: hidden;               /* Esconde o texto que passar do limite */
+        text-overflow: ellipsis;       /* Coloca os três pontos (...) */
+      }
+
     .seguranca,
     .saude,
     .monitoramento {
@@ -529,6 +554,10 @@ a {
         width: 30px;
         border: 0;
         margin-right: 5%;
+    }
+
+    .h1{
+        font-size: 20px;
     }
 
     .opcoes-solucoes img {
@@ -548,6 +577,40 @@ a {
         width: 70px;
         border: 0px;
     }
+
+    .pesquisa-dad{
+        width: 60%;
+        justify-content: space-between;
+    }
+
+    .pesquisa-dad div a{
+        font-size: 18px;
+    }
+
+    .titulo-pecuaria{
+        display: none;
+        background-color: transparent;
+    }
+
+    .finalizacaoHadden{
+        display: none;
+    }
+
+    .hidden{
+        width: 100%;
+    }
+
+    .text-paragrafo{
+        margin-left: 35%;
+    }
+
+    .text-paragrafo p {
+        display: -webkit-box;           /* Necessário para usar o line-clamp */
+        -webkit-box-orient: vertical;  /* Orientação vertical das linhas */
+        -webkit-line-clamp: 5;          /* Limita a 5 linhas */
+        overflow: hidden;               /* Esconde o texto que passar do limite */
+        text-overflow: ellipsis;       /* Coloca os três pontos (...) */
+      }
 
     .seguranca,
     .saude,
@@ -603,6 +666,27 @@ a {
         border: 0px;
     }
 
+
+    .titulo-pecuaria{
+        display: none;
+    }
+
+    .finalizacaoHadden{
+        width: 5vw;
+    }
+
+    .text-paragrafo{
+        margin-left: 70%;
+    }
+
+    .text-paragrafo p {
+        display: -webkit-box;           /* Necessário para usar o line-clamp */
+        -webkit-box-orient: vertical;  /* Orientação vertical das linhas */
+        -webkit-line-clamp: 5;          /* Limita a 5 linhas */
+        overflow: hidden;               /* Esconde o texto que passar do limite */
+        text-overflow: ellipsis;       /* Coloca os três pontos (...) */
+      }
+
     .seguranca,
     .saude,
     .monitoramento {
@@ -625,6 +709,15 @@ a {
     .opcoes-solucoes {
         flex-direction: column;
         justify-content: center;
+    }
+    
+    .pesquisa-dad{
+        width: 60%;
+        justify-content: space-between;
+    }
+
+    .pesquisa-dad div a{
+        font-size: 15px;
     }
 
     .solucoes {

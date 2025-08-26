@@ -28,28 +28,89 @@ body {
     
     height: 100px;
     padding: 20px;
-    margin-top: 40px;
+    margin: 40px 0 30px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .monitoramentoClima{
-    width: 600px;
+    width: 40%;
     height: 150px;
-    background-color: #E8D8B4;
+    background-color: #E1DFE0;
+    display: flex;
+    align-items: center;
+    border: 1px solid #cecece;
+}
+.regiaoClima{
+    width: 50%;
+    height: 90%;
+    background-color: #D9D9D9;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.infoClima{
+    width: 50%;
+    height: 90%;
+    margin: 0 10px 0 0;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.infoClima p {
+    margin: 0 0 0 10px;
+    color: #465640;
+    font-weight: 500;
+}
+
+.infoClima span{
+    font-weight: 400;
+    font-size: small;
+}
+
+.temperatura{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sol{
     display: flex;
     align-items: center;
 }
-.regiaoClima{
-    width: 295px;
-    height: 90%;
-    background-color: #E1DFE0;
-    margin-left: 10px;
+
+.sol img {
+    width: 80px;
+}
+
+.relogio img{
+    width: 60px;
+}
+
+.sol span h1 {
+    color: #465640;
+    font-weight: 550;
+}
+
+.relogio span h1 {
+    color: #465640;
+    font-weight: 550;
+    margin-left: 5px;
 }
 
 .regiaoClima h3{
     color: #465640;
+    margin-left: 15px;
 }
 .animacao{
     width: 20px;
@@ -58,19 +119,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-items: center;
-}
 
-.infoClima{
-    width: 295px;
-    height: 90%;
-    background-color: #E1DFE0;
-    margin: 0 10px 0 0;
 }
 
 .animacao hr {
     transform: rotate(90deg);
-    border: #465640 0.5px solid;
+    border: #cecece 0.5px solid;
     width: 50px;
 }
 
@@ -250,7 +304,6 @@ body {
 }
 
 .dashboard {
-    height: calc(100vh - 15vh);
     width: 100%;
     background-color: #F8F5F0;
     display: flex;
@@ -259,15 +312,10 @@ body {
 }
 
 .dashboard-children {
-    width: 70%;
-    height: 100%;
     background-color: #465640;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 5px;
-    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr; /* uma coluna só para as fileiras */
+    padding: 2%;
 
 
 }
@@ -289,12 +337,11 @@ body {
 .registro-comedouros,
 .registro-gado {
     height: 160px;
-    width: 240px;
-    border-radius: 5px;
+    width: 200px;
     background-color: #ebddba;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     padding: 8px;
 }
@@ -303,19 +350,25 @@ body {
     background-color: #D2B887;
 }
 
-.registro-fileira2,
+
 .registro-fileira1 {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
-    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 0 0 15px 0;
 }
 
 .registro-graficos {
-    width: 89%;
-    height: 45%;
+    background-color: #ebddba;
+    grid-column: 1 / -1; 
     background-color: #ebddba;
     border-radius: 5px;
+    /* Se quiser dividir o conteúdo interno em 4 colunas também */
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 15px;
+    padding: 15px;
+    min-height: 300px; /* só um exemplo pra dar altura */
 }
 
 .colorh1 {
@@ -369,7 +422,7 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
-    font-size: 50px;
+    /* font-size: 50px; */
 }
 
 .colorh3 {
@@ -474,12 +527,8 @@ body {
         
     }
 
-    .dashboard-children {
-        width: 70%;
-    }
-
-    .dashboard-children {
-        width: 70%;
+    .monitoramentoClima{
+        width: 60%;
     }
 
     .registro-comedouros,
@@ -499,7 +548,52 @@ body {
 }
 
 @media (max-width:1100px) and (min-width:900px) {
-    .dashboard-children {
+    /* .dashboard-children {
+        width: 80%;
+    } */
+
+    .registro-comedouros,
+    .registro-gado,
+    .registro-bebedouros,
+    .registro-metros,
+    .registro-sensores,
+    .regitro-piquetes,
+    .registro-estoque,
+    .registro-rodizio {
+        width: 120px;
+        height: 120px;
+    }
+
+    .monitoramentoClima{
+        width: 70%;
+    }
+
+    .colorh1 {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width:895px) and (min-width:500px) {
+    /* .dashboard-children {
+        width: 85%;
+    } */
+
+    .registro-graficos {
+        background-color: #ebddba;
+        border-radius: 5px;
+        grid-column: 1 / -1; 
+        background-color: #ebddba;
+        border-radius: 5px;
+        /* Se quiser dividir o conteúdo interno em 4 colunas também */
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 30px;
+        padding: 15px;
+        min-height: 200px; /* só um exemplo pra dar altura */
+    }
+
+    .monitoramentoClima{
         width: 80%;
     }
 
@@ -511,18 +605,62 @@ body {
     .regitro-piquetes,
     .registro-estoque,
     .registro-rodizio {
-        width: 120px;
+        width: 80px;
+        height: 80px;
     }
 
-    .colorh1 {
-        font-size: 30px;
+    .register-number h1 {
+        font-size: 20px;
     }
 
+    .registro-gado-dado img {
+        display: none;
+    }
+
+    .colorh3{
+        font-size: small;
+    }
+
+    .sol img {
+        width: 60px;
+    }
+    
+    .sol span h1{
+        font-size: 18px;
+    }
+
+    .regiaoClima h3{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .relogio span h1{
+        font-size: 18px;
+    }
+
+    .relogio img{
+        width: 40px;
+    }
+
+    .infoClima p {
+        font-size: 14px;
+        margin-left: 5px;
+    }
 }
 
-@media (max-width:895px) and (min-width:500px) {
-    .dashboard-children {
-        width: 85%;
+@media (max-width:500px) and (min-width:0) {
+    .registro-graficos {
+        background-color: #ebddba;
+        border-radius: 5px;
+        grid-column: 1 / -1; 
+        background-color: #ebddba;
+        border-radius: 5px;
+        /* Se quiser dividir o conteúdo interno em 4 colunas também */
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 30px;
+        padding: 15px;
+        min-height: 200px; /* só um exemplo pra dar altura */
     }
 
     .registro-comedouros,
@@ -533,12 +671,50 @@ body {
     .regitro-piquetes,
     .registro-estoque,
     .registro-rodizio {
-        width: 110px;
-        height: 110px;
+        width: 80px;
+        height: 80px;
     }
 
-    .colorh1 {
-        font-size: 30px;
+    .monitoramentoClima{
+        width: 90%;
     }
 
+    .sol img {
+        width: 40px;
+    }
+    
+    .sol span h1{
+        font-size: 18px;
+    }
+
+    .regiaoClima h3{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .relogio span h1{
+        font-size: 18px;
+    }
+
+    .relogio img{
+        width: 30px;
+    }
+
+    .registro-gado-dado img {
+        display: none;
+    }
+
+    .register-number h1{
+        font-size: 20px;
+    }
+
+    .colorh3{
+        font-size: small;
+    }
+
+    .infoClima p {
+        font-size: small;
+        margin-left: 5px;
+    }
+    
 }
