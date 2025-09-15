@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/servicos.css">
+    <link rel="shortcut icon" href="../IMG/Group 1.png" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Serviços - ConectaBov</title>
 </head>
@@ -13,14 +14,11 @@
     <div class="cabecalho">
         <div class="cabecalho-div-">
             <div class="cabecalho-div-login">
-                <div class="cabecalho-children">
+                <img src="/IMG/Group 1.png" width="80px" class="imgLogo">      
                     <div class="cabecalho-div">
                         <!-- Ícone para abrir o menu -->
                         <!-- Ícone para abrir o menu -->
-                        <span class="cabecalho-icone" onclick="abrirMenu()">
-                            <img src="/IMG/1-removebg-preview 4.png" width="150px">
-                        </span>
-
+                        
                         <!-- Menu lateral com botão de fechar -->
                         <div id="menuLateral" class="menu-lateral">
                             <button class="fechar-menu" onclick="fecharMenu()">← Voltar</button>
@@ -61,15 +59,21 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+           
 
-                <div class="pesquisa-dad"><input class="pesquisa" type="text" name="" id="" size="80px">
+                <div class="pesquisa-dad">
+                    <input class="pesquisa" type="text" name="" id="" size="80px">
                     <img class="lupa" src="/IMG/magnifying-glass-solid.svg" alt="" srcset="" width="18px">
                 </div>
-                <a href="login.html" class="icon-login"><img class="user-solid" src="/IMG/user-solid.svg" alt=""
-                        srcset="" width="30px">
+
+                <a href="login.html" class="icon-login"><img class="user-solid" src="/IMG/user-solid.svg" alt="" srcset="" width="30px">
                     <p style="color: #5E7153;font-size: 10.5px;font-weight: bold;">Login</p>
                 </a>
+            </div>
+            
+            <div class="menu">
+                <img src="/IMG/bars-solid-full.svg" alt="" width="35px" onclick="abrirMenu()">
+                <p>Bem vindo a ConectaBov</p>
             </div>
 
             <div class="climabox">
